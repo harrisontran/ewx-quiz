@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Memorize locations in the EWX County Warning Area">
+		<meta name="keywords" content="EWX, Geography">
+		<meta name="author" content="Harrison Tran">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>EWX CWA</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+		<script src="https://d3js.org/d3.v6.min.js"></script><!-- D3.js-->
+		<script src="https://d3js.org/topojson.v3.min.js"></script> <!-- TopoJSON import -->
+	</head>
+	<body>
+		<div id="container">
+			<h1>The EWX County Warning Area</h1>
+			<div id="input-area"></div>
+			<div id="plot"></div>
+			<div id="options">
+				<p id="optionsText">Which do you want to name?</p>
+				<input type="button" class="optionsButton" id="pickCounties" value="Counties"></button>
+				<input type="button" class="optionsButton" id="pickCommunities" value="Communities"></button>
+			</div>
+			<div id="footer">
+				Created by Harrison Tran
+			</div>
+		</div>
+	</body>
+	<script src="script.js"></script><!--My script-->
+</html>

@@ -1,0 +1,152 @@
+* {
+	color: white;
+	font-family: "Lato", sans-serif;
+}
+
+body {
+	background-color: #252730;
+}
+
+div#container {
+    width: 1000px;
+    height: 600px;
+    background-color: #1c3359;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding:1.5em;
+    padding-bottom:0;
+
+    border-image: linear-gradient(to right, #133f86 0%, #3a4ed5 100%) 1;
+	border-width: 1px;
+  	border-style: solid;
+}
+
+input[type="text"]#entry {
+	font-size: 1.2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #29323c;
+	border: none;
+	border: 1px solid #394654;
+}
+
+input[type="button"]#quit {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size: 1.2em;
+	border-radius: 0;
+	border: 0;
+	background-color: #571e20;
+	border: 1px solid #394654;
+	cursor: pointer;
+}
+
+p#response {
+	color: #999da1;
+	font-size: 0.8em;
+}
+
+div#input-area {
+	text-align: center;
+	width: 100%;
+}
+
+div#options {
+	position: fixed;
+	top: 40%;
+	border: 1px solid #394654;
+	text-align: center;
+	width: inherit;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	background-color: #29323c;
+}
+
+input[type="button"].optionsButton {
+	padding: 1em;
+	font-size: 1.2em;
+	border-radius: 0;
+	border: 0;
+	background-color: #1976d2;
+	border: 1px solid #394654;
+	cursor: pointer;
+}
+
+div#footer {
+	position: absolute;
+	width:auto;
+	left: 0px;
+    bottom: 0px;
+	font-size: 0.8em;
+	border-top: 1px solid #173971;
+	color: #aeaeae;
+	padding: 0.5em;
+	background-color: #202e47;
+}
+
+/* Plots */
+path.county {
+	fill: #383939;
+}
+
+path.county-correct {
+	fill: #1976d2;
+}
+
+path.county-active {
+	fill: yellow;
+}
+
+path.county-incorrect {
+	fill: #571e20;
+}
+
+path.boundary {
+	fill: none;
+	stroke: #666;
+}
+
+text.countyLabel {
+	font-size: 0.8em;
+}
+
+circle {
+	stroke: black;
+	stroke-width: 2;
+}
+
+circle.place {
+	fill: #ccc;
+}
+
+circle.place-correct {
+	fill: #1976d2;
+	stroke: cyan;
+}
+
+circle.place-active {
+	fill: yellow;
+}
+
+circle.place-incorrect {
+	fill: #571e20;
+}
+
+.tooltip {
+	position:absolute;
+	background-color:#2ed2ff22;
+	border:1px solid #2ed2ff66;
+	border-radius:5px;
+	padding:5px;
+	color:#ffffff;
+	text-align:left;
+	font-size:0.8em;
+	backdrop-filter: blur(10px);
+}

@@ -124,6 +124,7 @@ circle {
 
 circle.place {
 	fill: #ccc;
+	opacity: 0.5;
 }
 
 circle.place-correct {
@@ -137,6 +138,7 @@ circle.place-active {
 
 circle.place-incorrect {
 	fill: #571e20;
+	opacity: 0.5;
 }
 
 .tooltip {

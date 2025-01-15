@@ -1,17 +1,71 @@
 name,lat,lon,population,type
+San Antonio,29.426098,-98.492804,1495295,county seat
 Austin,30.266646,-97.744729,979882,county seat
 Round Rock,30.508054,-97.679073,130406,city
+New Braunfels,29.70195,-98.123259,110958,county seat
+Georgetown,30.635524,-97.68378,96312,county seat
+Leander,30.578027,-97.854819,80067,city
+Cedar Park,30.504565,-97.816917,77516,city
+San Marcos,29.885112,-97.943773,71569,county seat
+Pflugerville,30.453622,-97.621674,65301,city
+Kyle,29.983494,-97.871487,62548,city
+Schertz,29.555192,-98.267993,43239,city
+Hutto,30.540732,-97.552377,38765,city
+Cibolo,29.559372,-98.22944,36374,city
+Seguin,29.569209,-97.967374,36013,county seat
 Del Rio,29.370389,-100.899277,34574,city
-Brackettville,29.316211,-100.410335,1334,county seat
+Timberwood Park,29.699803,-98.479138,34253,city
+Converse,29.505684,-98.309373,30321,city
+Eagle Pass,28.708786,-100.50236,28282,county seat
+Kerrville,30.044763,-99.141457,24930,county seat
+Boerne,29.793237,-98.737626,21774,county seat
+Manor,30.341993,-97.555815,20209,city
+Taylor,30.571047,-97.409127,17337,city
+Buda,30.072439,-97.834422,16030,city
 Uvalde,29.209824,-99.773868,15436,county seat
-Rocksprings,30.020041,-100.194642,848,county seat
-Leakey,29.725891,-99.757763,331,county seat
-Camp Wood,29.669367,-100.012428,511,city
-Carrizo Springs,28.524922,-99.848828,4628,city
-Crystal City,28.67917,-99.823775,6099,city
-La Pryor,28.945665,-99.834332,1090,city
-Dilley,28.667721,-99.157927,3333,city
-Pearsall,28.8914,-99.093617,8946,city
-Hondo,29.345374,-99.132384,8786,city
+Lockhart,29.878342,-97.669426,15318,county seat
+Elgin,30.341818,-97.378306,12304,city
+Bastrop,30.108195,-97.316287,11679,county seat
+Fredericksburg,30.274881,-98.875092,11542,county seat
+Leon Valley,29.489169,-98.617432,11337,city
+Pleasanton,28.964362,-98.486548,11195,city
+Helotes,29.557649,-98.677938,9952,city
+Pearsall,28.8914,-99.093617,8946,county seat
+Hondo,29.345374,-99.132384,8786,county seat
+Dripping Springs,30.189989,-98.095824,8689,city
+Floresville,29.13216,-98.162404,8306,county seat
+Cuero,29.090431,-97.290924,8204,county seat
+Marble Falls,30.582275,-98.270968,7573,city
+Gonzales,29.510465,-97.450432,7221,county seat
+Bulverde,29.799959,-98.428162,6970,city
+Burnet,30.760438,-98.237229,6940,county seat
+Crystal City,28.67917,-99.823775,6099,county seat
+Lakehills,29.602254,-98.94084,5955,census-designated place
+Yoakum,29.287141,-97.15501,5862,city
+Luling,29.679481,-97.648141,5754,city
+Giddings,30.181734,-96.930716,5254,county seat
+Carrizo Springs,28.524922,-99.848828,4628,county seat
+La Grange,29.90991,-96.885132,4541,county seat
+Jourdanton,28.91569,-98.546511,4304,county seat
+Smithville,30.008436,-97.16058,4126,city
+Jarrell,30.820393,-97.606757,3980,city
 Llano,30.759805,-98.66076,3511,county seat
-San Antonio,29.426098,-98.492804,1495295,city
+Kenedy,28.822413,-97.85034,3403,city
+Dilley,28.667721,-99.157927,3333,city
+Karnes City,28.882956,-97.898366,3112,county seat
+Poteet,29.042811,-98.571466,2992,city
+Wimberley,29.999176,-98.090962,2881,city
+Schulenburg,29.685106,-96.903188,2783,city
+Hallettsville,29.444547,-96.943136,2756,county seat
+Shiner,29.427087,-97.175339,2163,city
+Johnson City,30.277685,-98.411484,2037,county seat
+Blanco,30.092839,-98.42002,2005,city
+Comfort,29.97072,-98.900098,1589,city
+La Vernia,29.359152,-98.117432,1405,city
+Brackettville,29.316211,-100.410335,1334,county seat
+Lexington,30.420414,-97.011235,1289,city
+La Pryor,28.945665,-99.834332,1090,city
+Bandera,29.726254,-99.071949,879,county seat
+Rocksprings,30.020041,-100.194642,848,county seat
+Camp Wood,29.669367,-100.012428,511,city
+Leakey,29.725891,-99.757763,331,county seat

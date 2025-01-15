@@ -184,6 +184,7 @@ const drawMap = async function() {
         d3.select("#plot.parent").selectAll("*").remove();
         geoGroup.selectAll("path").attr("pointer-events", "auto")
         generateViz();
+        // location.reload();
     }
 
     /**
@@ -337,7 +338,6 @@ const drawMap = async function() {
         .attr("d", path);
     console.log('ACTION: Plotted places')
 
-
     if (!countyMode) {
         placeGroup.selectAll("circle").data(communities)
             .join("circle")
@@ -369,7 +369,7 @@ const drawMap = async function() {
             })
             .on("mousemove", (event, i) => {
                 if (i.status === 'correct' || i.status === 'incorrect') {
-                    tooltip.html(`${i.name}`)
+                    tooltip.html(`${i.name}<br><i>${i.type}</i>`)
                         .style("left", (d3.pointer(event)[0] + 160) + "px")
                         .style("top", (d3.pointer(event)[1] + 200) + "px")
                 }
